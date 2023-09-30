@@ -1,0 +1,46 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 210px;
+  background: white;
+  padding: 10px;
+  box-shadow: 5px 5px 50px black;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.display input{
+  background: transparent;
+  color: black;
+  font-size: 1.5rem;
+  border: none;
+  text-align: right;
+  height: 100px;
+  width: 190px;
+}
+.bottom-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2px;
+  border-top: 1px solid lightgray;
+}
+.bottom-container input{
+  font-weight: bold;
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background: white;
+}
+.operator{
+  font-size: 1rem;
+  color: rgb(255, 119, 0);
+}
+#equal {
+  background: rgb(255, 119, 0);
+  color: white;
+  border-radius: 50%;
+}
